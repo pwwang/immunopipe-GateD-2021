@@ -1,0 +1,7 @@
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SeuratClusteringOfAllCells.envs]
+FindClusters = {resolution = 1.6}
+
+[TCellSelection]
