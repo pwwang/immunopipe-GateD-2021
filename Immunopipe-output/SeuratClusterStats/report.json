@@ -1,0 +1,120 @@
+{
+  "Number of cells in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of cells per cluster"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.png",
+                "download": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Pie Chart",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.png",
+                "download": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster.pie.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number/faction of cells per cluster, by Sample"
+          }
+        ],
+        "tabs": [
+          {
+            "name": "Bar Plot",
+            "contents": [
+              {
+                "kind": "image",
+                "src": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.bar.png",
+                "download": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.bar.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Table",
+            "contents": [
+              {
+                "kind": "table",
+                "src": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample.txt"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Plots showing the number of genes expressed in each seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.png",
+            "download": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.boxplot.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for seurat_clusters"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "TCR presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for TCR_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/TCR-presence.dim.png",
+            "download": "/workdir/Immunopipe-output/SeuratClusterStats/samples.seurat.cluster_stats/dimplots/TCR-presence.dim.pdf"
+          }
+        ]
+      }
+    }
+  }
+}
