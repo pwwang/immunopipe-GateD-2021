@@ -1,0 +1,6 @@
+Sample	passed	failed	total
+P1S	3279	0	3279
+P1U	808	0	808
+P2S	3556	0	3556
+P2U	722	0	722
+All_Samples	8365	0	8365

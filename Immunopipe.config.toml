@@ -1,0 +1,10 @@
+[plugin_opts]
+args_dump = true
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SeuratClusteringOfAllCells.envs]
+FindClusters = {resolution = 1.6}
+
+[TOrBCellSelection]
