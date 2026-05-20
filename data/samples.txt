@@ -1,0 +1,5 @@
+Sample	RNAData	TCRData
+P1S	prepared-data/P1S	prepared-data/P1S
+P1U	prepared-data/P1U	prepared-data/P1U
+P2S	prepared-data/P2S	prepared-data/P2S
+P2U	prepared-data/P2U	prepared-data/P2U
