@@ -1,0 +1,30 @@
+[plugin_opts]
+args_dump = true
+
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[SeuratPreparing.envs]
+cache = "./.cache"
+
+[SeuratClusteringOfAllCells.envs]
+cache = "./.cache"
+FindClusters = {resolution = 1.6}
+
+[ClusterMarkersOfAllCells.envs]
+cache = "./.cache"
+
+[TOrBCellSelection]
+
+[SeuratClustering.envs]
+cache = "./.cache"
+
+[ClusterMarkers.envs]
+cache = "./.cache"
+
+[SeuratClusterStats.envs]
+cache = "./.cache"
+
+[ClonalStats.envs]
+cache = "./.cache"
+
